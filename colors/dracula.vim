@@ -170,7 +170,7 @@ exe "hi! CursorLine"      .s:fg_none        .s:bg_line        .s:fmt_none
 exe "hi! CursorLineNr"    .s:fg_orange      .s:bg_none        .s:fmt_bold
 exe "hi! VertSplit"       .s:fg_window      .s:bg_none        .s:fmt_none
 exe "hi! NonText"         .s:fg_selection   .s:bg_none        .s:fmt_none
-exe "hi! SignColumn"      .s:fg_none        .s:bg_darkcolumn  .s:fmt_none
+exe "hi! SignColumn"      .s:fg_foreground  .s:bg_background  .s:fmt_none
 exe "hi! LineNr"          .s:fg_linenr      .s:bg_none        .s:fmt_none
 exe "hi! StatusLine"      .s:fg_comment     .s:bg_background  .s:fmt_revr
 exe "hi! StatusLineNC"    .s:fg_window      .s:bg_comment     .s:fmt_revr
